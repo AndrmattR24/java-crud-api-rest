@@ -61,6 +61,5 @@ public class ProductoController {
         productoRepository.delete(productFound);
         productoRepository.flush();
         return productFound;
-
     }
 }
